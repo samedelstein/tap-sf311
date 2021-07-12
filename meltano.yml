@@ -1,0 +1,24 @@
+version: 1
+send_anonymous_usage_stats: true
+project_id: 7dc502c9-4f1e-4f4d-86b1-82e3b8bdd751
+plugins:
+  extractors:
+  - name: tap-sf311
+    namespace: tap_sf311
+    executable: ./tap-sf311.sh
+    capabilities:
+    - state
+    - catalog
+    - discover
+    settings:
+    - name: username
+    - name: password
+      kind: password
+    - name: start_date
+      value: '2010-01-01T00:00:00Z'
+    config:
+      start_date: '2010-01-01T00:00:00Z'
+  loaders:
+  - name: target-jsonl
+    variant: andyh1203
+    pip_url: target-jsonl

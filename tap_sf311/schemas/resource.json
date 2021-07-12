@@ -1,0 +1,291 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "service_request_id": "12494812",
+            "requested_datetime": "2020-06-04T16:02:00.000",
+            "closed_date": "2021-07-02T09:33:00.000",
+            "updated_datetime": "2021-07-02T09:33:00.000",
+            "status_description": "Closed",
+            "status_notes": "No Action Required - Comments: Case is no longer actionable. If issue still persists, please open a new complaint",
+            "agency_responsible": "DBI Housing Inspection Queue",
+            "service_name": "General Request - DPH",
+            "service_subtype": "complaint",
+            "service_details": "environmental_health - complaint",
+            "address": "15 NOBLES ALY, SAN FRANCISCO, CA, 94133",
+            "street": "NOBLES ALY",
+            "supervisor_district": "3",
+            "neighborhoods_sffind_boundaries": "Telegraph Hill",
+            "police_district": "CENTRAL",
+            "lat": "37.800868988037",
+            "long": "-122.407272338867",
+            "point": {
+                "latitude": "37.80086899",
+                "longitude": "-122.40727234",
+                "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+            },
+            "source": "Phone"
+        }
+    ],
+    "required": [
+        "service_request_id",
+        "requested_datetime",
+        "closed_date",
+        "updated_datetime",
+        "status_description",
+        "status_notes",
+        "agency_responsible",
+        "service_name",
+        "service_subtype",
+        "service_details",
+        "address",
+        "street",
+        "supervisor_district",
+        "neighborhoods_sffind_boundaries",
+        "police_district",
+        "lat",
+        "long",
+        "point",
+        "source"
+    ],
+    "properties": {
+        "service_request_id": {
+            "$id": "#/properties/service_request_id",
+            "type": "string",
+            "title": "The service_request_id schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "12494812"
+            ]
+        },
+        "requested_datetime": {
+            "$id": "#/properties/requested_datetime",
+            "type": "string",
+            "title": "The requested_datetime schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "2020-06-04T16:02:00.000"
+            ]
+        },
+        "closed_date": {
+            "$id": "#/properties/closed_date",
+            "type": "string",
+            "title": "The closed_date schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "2021-07-02T09:33:00.000"
+            ]
+        },
+        "updated_datetime": {
+            "$id": "#/properties/updated_datetime",
+            "type": "string",
+            "title": "The updated_datetime schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "2021-07-02T09:33:00.000"
+            ]
+        },
+        "status_description": {
+            "$id": "#/properties/status_description",
+            "type": "string",
+            "title": "The status_description schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Closed"
+            ]
+        },
+        "status_notes": {
+            "$id": "#/properties/status_notes",
+            "type": "string",
+            "title": "The status_notes schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "No Action Required - Comments: Case is no longer actionable. If issue still persists, please open a new complaint"
+            ]
+        },
+        "agency_responsible": {
+            "$id": "#/properties/agency_responsible",
+            "type": "string",
+            "title": "The agency_responsible schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "DBI Housing Inspection Queue"
+            ]
+        },
+        "service_name": {
+            "$id": "#/properties/service_name",
+            "type": "string",
+            "title": "The service_name schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "General Request - DPH"
+            ]
+        },
+        "service_subtype": {
+            "$id": "#/properties/service_subtype",
+            "type": "string",
+            "title": "The service_subtype schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "complaint"
+            ]
+        },
+        "service_details": {
+            "$id": "#/properties/service_details",
+            "type": "string",
+            "title": "The service_details schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "environmental_health - complaint"
+            ]
+        },
+        "address": {
+            "$id": "#/properties/address",
+            "type": "string",
+            "title": "The address schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "15 NOBLES ALY, SAN FRANCISCO, CA, 94133"
+            ]
+        },
+        "street": {
+            "$id": "#/properties/street",
+            "type": "string",
+            "title": "The street schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "NOBLES ALY"
+            ]
+        },
+        "supervisor_district": {
+            "$id": "#/properties/supervisor_district",
+            "type": "string",
+            "title": "The supervisor_district schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "3"
+            ]
+        },
+        "neighborhoods_sffind_boundaries": {
+            "$id": "#/properties/neighborhoods_sffind_boundaries",
+            "type": "string",
+            "title": "The neighborhoods_sffind_boundaries schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Telegraph Hill"
+            ]
+        },
+        "police_district": {
+            "$id": "#/properties/police_district",
+            "type": "string",
+            "title": "The police_district schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "CENTRAL"
+            ]
+        },
+        "lat": {
+            "$id": "#/properties/lat",
+            "type": "string",
+            "title": "The lat schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "37.800868988037"
+            ]
+        },
+        "long": {
+            "$id": "#/properties/long",
+            "type": "string",
+            "title": "The long schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "-122.407272338867"
+            ]
+        },
+        "point": {
+            "$id": "#/properties/point",
+            "type": "object",
+            "title": "The point schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+                {
+                    "latitude": "37.80086899",
+                    "longitude": "-122.40727234",
+                    "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+                }
+            ],
+            "required": [
+                "latitude",
+                "longitude",
+                "human_address"
+            ],
+            "properties": {
+                "latitude": {
+                    "$id": "#/properties/point/properties/latitude",
+                    "type": "string",
+                    "title": "The latitude schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "37.80086899"
+                    ]
+                },
+                "longitude": {
+                    "$id": "#/properties/point/properties/longitude",
+                    "type": "string",
+                    "title": "The longitude schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "-122.40727234"
+                    ]
+                },
+                "human_address": {
+                    "$id": "#/properties/point/properties/human_address",
+                    "type": "string",
+                    "title": "The human_address schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+                    ]
+                }
+            },
+            "additionalProperties": true
+        },
+        "source": {
+            "$id": "#/properties/source",
+            "type": "string",
+            "title": "The source schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Phone"
+            ]
+        }
+    },
+    "additionalProperties": true
+}
