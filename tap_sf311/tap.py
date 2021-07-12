@@ -9,11 +9,13 @@ from singer_sdk import typing as th  # JSON schema typing helpers
 from tap_sf311.streams import (
     sf311Stream,
     ResourcesStream,
+    PermitsStream,
 )
 # TODO: Compile a list of custom stream types here
 #       OR rewrite discover_streams() below with your custom logic.
 STREAM_TYPES = [
     ResourcesStream,
+    PermitsStream,
 ]
 
 

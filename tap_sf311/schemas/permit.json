@@ -1,0 +1,303 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "permit_number": "21SC-00626",
+            "streetname": "SCOTT ST",
+            "cross_street_1": "CALIFORNIA ST",
+            "cross_street_2": "SACRAMENTO ST",
+            "permit_type": "StorCont",
+            "agent": "PODS, Inc",
+            "agentphone": "510 504 6731",
+            "approved_date": "2021-07-02T09:10:24.000",
+            "status": "APPROVED",
+            "cnn": "11703000",
+            "permit_zipcode": "94115",
+            "permit_start_date": "2021-07-22T00:01:00.000",
+            "permit_end_date": "2021-07-24T23:59:00.000",
+            "permit_address": "2700 CALIFORNIA ST",
+            "contact": "925-596-4153",
+            "x": "6001405.97235",
+            "y": "2115335.39301",
+            "latitude": "37.78838646792737",
+            "longitude": "-122.4389627576424",
+            "location": {
+                "latitude": "37.78838646792737",
+                "longitude": "-122.4389627576424",
+                "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+            }
+        }
+    ],
+    "required": [
+        "permit_number",
+        "streetname",
+        "cross_street_1",
+        "cross_street_2",
+        "permit_type",
+        "agent",
+        "agentphone",
+        "approved_date",
+        "status",
+        "cnn",
+        "permit_zipcode",
+        "permit_start_date",
+        "permit_end_date",
+        "permit_address",
+        "contact",
+        "x",
+        "y",
+        "latitude",
+        "longitude",
+        "location"
+    ],
+    "properties": {
+        "permit_number": {
+            "$id": "#/properties/permit_number",
+            "type": "string",
+            "title": "The permit_number schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "21SC-00626"
+            ]
+        },
+        "streetname": {
+            "$id": "#/properties/streetname",
+            "type": "string",
+            "title": "The streetname schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "SCOTT ST"
+            ]
+        },
+        "cross_street_1": {
+            "$id": "#/properties/cross_street_1",
+            "type": "string",
+            "title": "The cross_street_1 schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "CALIFORNIA ST"
+            ]
+        },
+        "cross_street_2": {
+            "$id": "#/properties/cross_street_2",
+            "type": "string",
+            "title": "The cross_street_2 schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "SACRAMENTO ST"
+            ]
+        },
+        "permit_type": {
+            "$id": "#/properties/permit_type",
+            "type": "string",
+            "title": "The permit_type schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "StorCont"
+            ]
+        },
+        "agent": {
+            "$id": "#/properties/agent",
+            "type": "string",
+            "title": "The agent schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "PODS, Inc"
+            ]
+        },
+        "agentphone": {
+            "$id": "#/properties/agentphone",
+            "type": "string",
+            "title": "The agentphone schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "510 504 6731"
+            ]
+        },
+        "approved_date": {
+            "$id": "#/properties/approved_date",
+            "type": "string",
+            "title": "The approved_date schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "2021-07-02T09:10:24.000"
+            ]
+        },
+        "status": {
+            "$id": "#/properties/status",
+            "type": "string",
+            "title": "The status schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "APPROVED"
+            ]
+        },
+        "cnn": {
+            "$id": "#/properties/cnn",
+            "type": "string",
+            "title": "The cnn schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "11703000"
+            ]
+        },
+        "permit_zipcode": {
+            "$id": "#/properties/permit_zipcode",
+            "type": "string",
+            "title": "The permit_zipcode schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "94115"
+            ]
+        },
+        "permit_start_date": {
+            "$id": "#/properties/permit_start_date",
+            "type": "string",
+            "title": "The permit_start_date schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "2021-07-22T00:01:00.000"
+            ]
+        },
+        "permit_end_date": {
+            "$id": "#/properties/permit_end_date",
+            "type": "string",
+            "title": "The permit_end_date schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "2021-07-24T23:59:00.000"
+            ]
+        },
+        "permit_address": {
+            "$id": "#/properties/permit_address",
+            "type": "string",
+            "title": "The permit_address schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "2700 CALIFORNIA ST"
+            ]
+        },
+        "contact": {
+            "$id": "#/properties/contact",
+            "type": "string",
+            "title": "The contact schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "925-596-4153"
+            ]
+        },
+        "x": {
+            "$id": "#/properties/x",
+            "type": "string",
+            "title": "The x schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "6001405.97235"
+            ]
+        },
+        "y": {
+            "$id": "#/properties/y",
+            "type": "string",
+            "title": "The y schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "2115335.39301"
+            ]
+        },
+        "latitude": {
+            "$id": "#/properties/latitude",
+            "type": "string",
+            "title": "The latitude schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "37.78838646792737"
+            ]
+        },
+        "longitude": {
+            "$id": "#/properties/longitude",
+            "type": "string",
+            "title": "The longitude schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "-122.4389627576424"
+            ]
+        },
+        "location": {
+            "$id": "#/properties/location",
+            "type": "object",
+            "title": "The location schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+                {
+                    "latitude": "37.78838646792737",
+                    "longitude": "-122.4389627576424",
+                    "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+                }
+            ],
+            "required": [
+                "latitude",
+                "longitude",
+                "human_address"
+            ],
+            "properties": {
+                "latitude": {
+                    "$id": "#/properties/location/properties/latitude",
+                    "type": "string",
+                    "title": "The latitude schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "37.78838646792737"
+                    ]
+                },
+                "longitude": {
+                    "$id": "#/properties/location/properties/longitude",
+                    "type": "string",
+                    "title": "The longitude schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "-122.4389627576424"
+                    ]
+                },
+                "human_address": {
+                    "$id": "#/properties/location/properties/human_address",
+                    "type": "string",
+                    "title": "The human_address schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+                    ]
+                }
+            },
+            "additionalProperties": true
+        }
+    },
+    "additionalProperties": true
+}

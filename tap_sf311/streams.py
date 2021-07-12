@@ -19,7 +19,15 @@ class ResourcesStream(sf311Stream):
     """Define custom stream."""
     name = "resource"
     path = "/resource/vw6y-z8j6.json?$limit=50000&$where=requested_datetime>'"+previous_date+"' OR closed_date between '" + previous_date+ "' AND '" + todays_date + "'"
-    primary_keys = ["id"]
+    primary_keys = ["service_request_id"]
     replication_key = None
     schema_filepath = SCHEMAS_DIR / "resource.json"
 
+
+class PermitsStream(sf311Stream):
+    """Define custom stream."""
+    name = "permit"
+    path = "/resource/b6tj-gt35.json"
+    primary_keys = ["permit_number"]
+    replication_key = None
+    schema_filepath = SCHEMAS_DIR / "permit.json"

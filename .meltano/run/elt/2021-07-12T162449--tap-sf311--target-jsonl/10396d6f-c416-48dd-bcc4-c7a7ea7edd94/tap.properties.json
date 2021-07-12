@@ -1,0 +1,363 @@
+{
+  "streams": [
+    {
+      "tap_stream_id": "resource",
+      "replication_method": "FULL_TABLE",
+      "key_properties": [
+        "permit_number"
+      ],
+      "schema": {
+        "properties": {
+          "permit_number": {
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          "streetname": {
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          "cross_street_1": {
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          "cross_street_2": {
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          "permit_type": {
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          "agent": {
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          "agentphone": {
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          "approved_date": {
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          "status": {
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          "cnn": {
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          "permit_zipcode": {
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          "permit_start_date": {
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          "permit_end_date": {
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          "permit_address": {
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          "contact": {
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          "x": {
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          "y": {
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          "latitude": {
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          "longitude": {
+            "description": "An explanation about the purpose of this instance.",
+            "type": "string"
+          },
+          "location": {
+            "properties": {
+              "latitude": {
+                "description": "An explanation about the purpose of this instance.",
+                "type": "string"
+              },
+              "longitude": {
+                "description": "An explanation about the purpose of this instance.",
+                "type": "string"
+              },
+              "human_address": {
+                "description": "An explanation about the purpose of this instance.",
+                "type": "string"
+              }
+            },
+            "description": "An explanation about the purpose of this instance.",
+            "type": "object",
+            "additionalProperties": true
+          }
+        },
+        "description": "The root schema comprises the entire JSON document.",
+        "type": "object",
+        "additionalProperties": true
+      },
+      "stream": "resource",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "table-key-properties": [
+              "permit_number"
+            ],
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "permit_number"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "streetname"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "cross_street_1"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "cross_street_2"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "permit_type"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "agent"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "agentphone"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "approved_date"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "status"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "cnn"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "permit_zipcode"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "permit_start_date"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "permit_end_date"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "permit_address"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "contact"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "x"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "y"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "latitude"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "longitude"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "location"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "location",
+            "properties",
+            "latitude"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "location",
+            "properties",
+            "longitude"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "location",
+            "properties",
+            "human_address"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        }
+      ],
+      "selected": true
+    }
+  ]
+}
